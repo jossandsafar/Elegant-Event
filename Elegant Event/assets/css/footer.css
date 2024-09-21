@@ -1,0 +1,198 @@
+/* Importing Google font - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+footer {
+height: auto;
+
+width: 100%;
+  background: #10182F;
+  border-radius: 6px;
+}
+
+.footer .footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3.5rem;
+  padding: 30px;
+}
+
+.footer-row .footer-col h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.footer-col .links {
+  margin-top: 20px;
+}
+
+.footer-col .links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-col .links li a  {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+
+.footer-col .links li a:hover {
+  color: #fff;
+}
+.paragraph p{
+  color: #bfbfbf;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  
+}
+.paragraph p:hover{
+  color: #fff;
+  
+}
+.footer-col p:hover{
+  color: #fff;
+}
+
+.footer-col p{
+  margin: 20px 0;
+  color: #bfbfbf;
+  max-width: 300px;
+}
+
+.footer-col form {
+  display: flex;
+  gap: 5px;
+}
+
+.footer-col input {
+  position: relative;
+  height: 40px;
+  border-radius: 6px;
+  background: none;
+  width: 250px;
+  outline: none;
+  border: 1px solid #7489C6 ;
+  caret-color: #fff;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.footer-col input::placeholder {
+  color: #ccc;
+}
+
+ .footer-col form button {
+  background: #fff;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.footer-col form button:hover {
+  background: #cecccc;
+}
+
+.footer-col .icons {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  cursor: pointer;
+}
+
+
+/* social media icons */
+.icons ul {
+
+
+  margin:0;
+  padding:0;
+  display:flex;
+}
+
+.icons ul li {
+  list-style: none;
+}
+
+.icons ul li a {
+  position: relative;
+  width:30px;
+  height:30px;
+  display:block;
+  text-align:center;
+  margin:0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration:none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+
+}
+
+#facebook:hover {
+  box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+  text-decoration:none;
+  background: #1079f0 ;
+box-shadow: 0px 0px 20px 4px rgba(16,121,240,1);
+}
+#insta:hover {
+  box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+  text-decoration:none;
+  background: #F92C7F;
+  box-shadow: 0px 0px 20px 4px rgba(249,44,126,1) ,2px 5px 10px 1px rgba(255,192,84,1) ,0px -2px 10px 4px rgba(102,74,212,1);
+}
+
+#linkedin:hover {
+  box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+  text-decoration:none;
+  background: #2C67B3 ;
+
+  box-shadow: 0px 0px 20px 4px rgba(44,103,179,1);
+}
+
+
+#tele:hover {
+  box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+  text-decoration:none;
+  background: #01ACE3 ;
+
+  box-shadow: 0px 0px 20px 4px rgba(1,170,227,1);
+  
+}
+
+
+
+@media (max-width: 768px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+
+  .footer .footer-row {
+    padding: 20px;
+    gap: 1rem;
+  }
+
+  .footer-col form {
+    display: block;
+  }
+
+  .footer-col form :where(input, button) {
+    max-width: 100%;
+  }
+
+  .footer-col form button {
+    margin: 10px 0 0 0;
+  }
+}

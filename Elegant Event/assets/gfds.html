@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<!-- تعريف نوع المستند ليكون HTML5 -->
+<html lang="en">
+<!-- بداية مستند HTML وتحديد اللغة الإنجليزية -->
+
+<head>
+    <!-- معلومات عن المستند مثل إعدادات التشفير والعنوان والروابط إلى ملفات خارجية -->
+    <meta charset="UTF-8">
+    <!-- تعيين نوع التشفير ليكون UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- إعدادات العرض لجعل الموقع متجاوباً مع جميع أحجام الشاشات -->
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <!-- ربط ملف CSS خارجي يحتوي على أيقونات من مكتبة Remix Icons -->
+
+    <link rel="shortcut icon" href="/assets/img/fav-icon.png" />
+    <!-- ربط أيقونة الموقع التي تظهر في شريط العنوان للمتصفح -->
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- ربط ملف CSS خارجي لتنسيق الموقع العام -->
+    <link rel="stylesheet" href="assets/css/slider.css" />
+    <!-- ربط ملف CSS خارجي لتنسيق شريط التمرير -->
+    <link rel="stylesheet" href="assets/css/aboutus.css" />
+    <!-- ربط ملف CSS خارجي لتنسيق قسم "من نحن" -->
+    <link rel="stylesheet" href="/assets/css/services.css">
+    <!-- ربط ملف CSS خارجي لتنسيق قسم الخدمات -->
+    <link rel="stylesheet" href="/assets/css/reviews.css">
+    <!-- ربط ملف CSS خارجي لتنسيق قسم التقييمات -->
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <!-- ربط ملف CSS خارجي لتنسيق الفوتر -->
+    <link rel="stylesheet" href="/assets/css/Particles.css">
+    <!-- ربط ملف CSS خارجي لتنسيق الجزيئات -->
+
+    <title>Elegant Event</title>
+    <!-- عنوان الصفحة الذي يظهر في شريط العنوان للمتصفح -->
+</head>
+
+<body>
+    <!-- بداية جسم المستند حيث يتم وضع المحتوى الرئيسي -->
+
+    <div class="wrapper">
+        <!-- عنصر يحتوي على كل المحتوى داخل صفحة الويب -->
+
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <!-- رأس الصفحة يحتوي على عناصر التنقل -->
+
+            <div class="navbar">
+                <!-- شريط التنقل -->
+
+                <nav class="nav container">
+                    <!-- قائمة التنقل داخل حاوية -->
+
+                    <div class="nav__menu" id="nav-menu">
+                        <!-- قائمة الروابط -->
+
+                        <ul class="nav__list">
+                            <!-- قائمة الروابط -->
+
+                            <li class="nav__item">
+                                <a href="index.html" class="nav__link">Home</a>
+                                <!-- عنصر قائمة مع رابط لصفحة الرئيسية -->
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html" class="nav__link">Services</a>
+                                <!-- عنصر قائمة مع رابط لصفحة الخدمات -->
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html" class="nav__link">About Us</a>
+                                <!-- عنصر قائمة مع رابط لصفحة من نحن -->
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html" class="nav__link">Featured</a>
+                                <!-- عنصر قائمة مع رابط لصفحة المميزات -->
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html" class="nav__link">Contact</a>
+                                <!-- عنصر قائمة مع رابط لصفحة الاتصال -->
+                            </li>
+                        </ul>
+
+                        <!-- زر إغلاق القائمة -->
+                        <div class="nav__close" id="nav-close">
+                            <i class="ri-close-line"></i>
+                            <!-- أيقونة الإغلاق -->
+                        </div>
+                    </div>
+
+
+                    <div class="nav__actions">
+                        <!-- الأزرار التفاعلية في شريط التنقل -->
+
+                        <!-- زر البحث -->
+                        <i class="ri-search-line nav__search" id="search-btn"></i>
+                        <!-- أيقونة البحث -->
+
+                        <!-- زر تسجيل الدخول -->
+                        <i class="ri-user-line nav__login" id="login-btn"></i>
+                        <!-- أيقونة تسجيل الدخول -->
+
+                        <!-- زر التبديل -->
+                        <div class="nav__toggle" id="nav-toggle">
+                            <i class="ri-menu-line"></i>
+                            <!-- أيقونة التبديل -->
+                        </div>
+                    </div>
+                </nav>
+
+                <!--==================== SEARCH ====================-->
+                <div class="search" id="search">
+                    <!-- نافذة البحث -->
+
+                    <form action="" class="search__form">
+                        <input type="search" placeholder="What are you looking for?" class="search__input">
+                        <!-- حقل إدخال البحث -->
+                    </form>
+
+                    <i class="ri-close-line search__close" id="search-close"></i>
+                    <!-- زر إغلاق البحث -->
+                </div>
+
+                <!--==================== LOGIN ====================-->
+                <div class="login" id="login">
+                    <!-- نافذة تسجيل الدخول -->
+
+                    <div class="form-box">
+                        <form class="form">
+                            <span class="title">Login</span>
+                            <!-- عنوان نافذة تسجيل الدخول -->
+
+                            <span class="subtitle">Login to your account with your email.</span>
+                            <!-- وصف نافذة تسجيل الدخول -->
+
+                            <div class="form-container">
+                                <input type="email" class="input e" placeholder="Email">
+                                <!-- حقل إدخال البريد الإلكتروني -->
+                                <input type="password" class="input p" placeholder="Password">
+                                <!-- حقل إدخال كلمة المرور -->
+                            </div>
+
+                            <button>Log In</button>
+                            <!-- زر تسجيل الدخول -->
+
+                            <div class="form-section">
+                                <p>Dont Have an account? <a href="Registration.html">Sign Up</a> </p>
+                                <!-- رابط لإنشاء حساب جديد -->
+                            </div>
+                        </form>
+                    </div>
+
+                    <i class="ri-close-line login__close" id="login-close"></i>
+                    <!-- زر إغلاق نافذة تسجيل الدخول -->
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- القسم الرئيسي للمحتوى -->
+
+            <div class="slider">
+                <!-- شريط التمرير -->
+
+                <form>
+                    <input type="radio" name="fancy" value="party1" id="party1" />
+                    <!-- حقل اختيار العنصر الأول في شريط التمرير -->
+                    <input type="radio" name="fancy" value="party2" id="party2" />
+                    <!-- حقل اختيار العنصر الثاني في شريط التمرير -->
+                    <input type="radio" name="fancy" value="party3" id="party3" />
+                    <!-- حقل اختيار العنصر الثالث في شريط التمرير -->
+
+
+                    <label for="party1">
+                        <span class="text">
+                            <h1 class="h1">Cool Designs</h1>
+                            <!-- عنوان النص الأول في شريط التمرير -->
+                            <h3 class="h3"> We Offer Large Collection of designs For Your Event</h3>
+                            <!-- نص الوصف الأول في شريط التمرير -->
+                            <button class="button">Learn More</button>
+                            <!-- زر لمعرفة المزيد -->
+                        </span>
+                    </label>
+                    <label for="party2">
+                        <span class="text">
+                            <h1 class="h1">Featured Items</h1>
+                            <!-- عنوان النص الثاني في شريط التمرير -->
+                            <h3 class="h3"> Our Vast Items of Themes will Suit All Your Needs</h3>
+                            <!-- نص الوصف الثاني في شريط التمرير -->
+                            <button class="button">Learn More</button>
+                            <!-- زر لمعرفة المزيد -->
+                        </span>
+                    </label>
+                    <label for="party3">
+                        <span class="text">
+                            <h1 class="h1">Customed Theme</h1>
+                            <!-- عنوان النص الثالث في شريط التمرير -->
+                            <h3 class="h3"> Add The Theme You Want For Your Party</h3>
+                            <!-- نص الوصف الثالث في شريط التمرير -->
+                            <button class="button">Learn More</button>
+                            <!-- زر لمعرفة المزيد -->
+                        </span>
+                    </label>
+                </form>
+            </div>
+
+            <br><br><br>
+
+            <div class="aboutus">
+                <!-- قسم من نحن -->
+
+                <div class="responsive-container-block bigContainer">
+                    <h1 class="section-heading" style="text-align: center;">Who Are We</h1>
+                    <!-- عنوان قسم من نحن -->
+
+                    <div class="responsive-container-block Container">
+                        <img class="mainImg" src="/assets/img/about us/about us.jpg">
+                        <!-- صورة داخل قسم من نحن -->
+
+                        <div class="allText aboveText">
+                            <p class="text-blk headingText">Our Mission</p>
+                            <!-- عنوان مهمة الشركة -->
+                            <p class="text-blk subHeadingText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            <!-- وصف مهمة الشركة -->
+                            <p class="text-blk description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Fermentum pulvinar ullamcorper suspendisse ac eget. Pellentesque tempus leo in
+                                ullamcorper quis vestibulum ligula elementum ut.</p>
+                            <!-- نص وصف مهمة الشركة -->
+
+
+                            <button class="explore">Explore</button>
+                            <!-- زر استكشاف المزيد -->
+                        </div>
+                    </div>
+
+                    <div class="responsive-container-block Container bottomContainer">
+                        <img class="mainImg" src="/assets/img/about us/party.jpg">
+                        <!-- صورة أخرى داخل قسم من نحن -->
+
+                        <div class="allText bottomText">
+                            <p class="text-blk headingText">Our Vision</p>
+                            <!-- عنوان رؤية الشركة -->
+                            <p class="text-blk subHeadingText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            <!-- وصف رؤية الشركة -->
+                            <p class="text-blk description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Fermentum pulvinar ullamcorper suspendisse ac eget. Pellentesque tempus leo in
+                                ullamcorper quis vestibulum ligula elementum ut.</p>
+                            <!-- نص وصف رؤية الشركة -->
+                            <button class="explore">Explore</button>
+                            <!-- زر استكشاف المزيد -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services">
+                <!-- قسم الخدمات -->
+
+                <section class="section">
+                    <div class="row">
+                        <h1 class="section-heading">Our Services</h1>
+                        <!-- عنوان قسم الخدمات -->
+                        <br><br><br><br>
+                    </div>
+
+                    <div class="row">
+                        <div class="column">
+                            <div class="card">
+                                <div class="icon-wrapper">
+                                    <i class="fas fa-hammer">
+                                        <img src="/assets/img/services/1-01-01.png" style="width: 50px;">
+                                    </i>
+                                </div>
+                                <h3>Service Heading</h3>
+                                <!-- عنوان الخدمة -->
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam consequatur
+                                    necessitatibus eaque.</p>
+                                <!-- وصف الخدمة -->
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="card">
+                                <div class="icon-wrapper">
+                                    <i class="fas fa-brush">
+                                        <img src="/assets/img/services/candles_2621919.png" style="width: 55px;">
+                                    </i>
+                                </div>
+                                <h3>Service Heading</h3>
+                                <!-- عنوان الخدمة -->
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam consequatur
+                                    necessitatibus eaque.</p>
+                                <!-- وصف الخدمة -->
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="card">
+                                <div class="icon-wrapper">
+                                    <i class="fas fa-wrench">
+                                        <img src="/assets/img/services/celebration_13539955.png" style="width: 60px;">
+                                    </i>
+                                </div>
+                                <h3>Service Heading</h3>
+                                <!-- عنوان الخدمة -->
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam consequatur
+                                    necessitatibus eaque.</p>
+                                <!-- وصف الخدمة -->
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="card">
+                                <div class="icon-wrapper">
+                                    <i class="fas fa-truck-pickup">
+                                        <img src="/assets/img/services/food_7681217.png" style="width: 60px;">
+                                    </i>
+                                </div>
+                                <h3>Service Heading</h3>
+                                <!-- عنوان الخدمة -->
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam consequatur
+                                    necessitatibus eaque.</p>
+                                <!-- وصف الخدمة -->
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="card">
+                                <div class="icon-wrapper">
+                                    <i class="fas fa-broom">
+                                        <img src="/assets/img/services/room-service_11743994.png" style="width: 60px;">
+                                    </i>
+                                </div>
+                                <h3>Service Heading</h3>
+                                <!-- عنوان الخدمة -->
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam consequatur
+                                    necessitatibus eaque.</p>
+                                <!-- وصف الخدمة -->
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class=" card">
+                                <div class="icon-wrapper">
+                                    <i class="fas fa-plug">
+                                        <img src="/assets/img/services/room-service_563974.png" style="width: 60px;">
+                                    </i>
+                                </div>
+                                <h3>Service Heading</h3>
+                                <!-- عنوان الخدمة -->
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam consequatur
+                                    necessitatibus eaque.</p>
+                                <!-- وصف الخدمة -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="reviews">
+                <!-- قسم التقييمات -->
+
+                <section id="testimonials">
+                    <!-- عنوان قسم التقييمات -->
+                    <div class="testimonial-heading">
+                        <h1>See What Our Clients Say About Us</h1>
+                    </div>
+
+                    <!-- حاوية صناديق التقييمات -->
+                    <div class="testimonial-box-container">
+                        <!-- صندوق التقييم 1 -->
+                        <div class="testimonial-box">
+                            <div class="box-top">
+                                <div class="profile">
+                                    <div class="profile-img">
+                                        <img src="/assets/img/customer-rating-and-pics/c-1.jpg">
+                                    </div>
+                                    <div class="name-user">
+                                        <strong>Touseeq Ijaz</strong>
+                                        <span>@touseeqijazweb</span>
+                                    </div>
+                                </div>
+                                <div class="reviews">
+                                    <i class="fas fa-star">
+                                        <img src="/assets/img/customer-rating-and-pics/4star.png" alt=""
+                                            style="width: 120px;">
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="client-comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat
+                                    quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae
+                                    doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                            </div>
+                        </div>
+
+                        <!-- صندوق التقييم 2 -->
+                        <div class="testimonial-box">
+                            <div class="box-top">
+                                <div class="profile">
+                                    <div class="profile-img">
+                                        <img src="/assets/img/customer-rating-and-pics/c-2.jpg" />
+                                    </div>
+                                    <div class="name-user">
+                                        <strong>J.K Rowling</strong>
+                                        <span>@jkrowling</span>
+                                    </div>
+                                </div>
+                                <div class="reviews">
+                                    <i class="fas fa-star">
+                                        <img src="/assets/img/customer-rating-and-pics/4.5star.png "
+                                            style="width: 120px;">
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="client-comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem، quaerat
+                                    quis؟ Provident temporibus architecto asperiores nobis maiores nisi a. Quae
+                                    doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                            </div>
+                        </div>
+
+
+                        <!-- صندوق التقييم 3 -->
+                        <div class="testimonial-box">
+                            <div class="box-top">
+                                <div class="profile">
+                                    <div class="profile-img">
+                                        <img src="/assets/img/customer-rating-and-pics/c-3.jpg" />
+                                    </div>
+                                    <div class="name-user">
+                                        <strong>Harry Potter</strong>
+                                        <span>@DanielRedclief</span>
+                                    </div>
+                                </div>
+                                <div class="reviews">
+                                    <i class="fas fa-star">
+                                        <img src="/assets/img/customer-rating-and-pics/5star.png" style="width: 120px;">
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="client-comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem، quaerat
+                                    quis؟ Provident temporibus architecto asperiores nobis maiores nisi a. Quae
+                                    doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                            </div>
+                        </div>
+
+                        <!-- صندوق التقييم 4 -->
+                        <div class="testimonial-box">
+                            <div class="box-top">
+                                <div class="profile">
+                                    <div class="profile-img">
+                                        <img src="/assets/img/customer-rating-and-pics/c-4.jpg" />
+                                    </div>
+                                    <div class="name-user">
+                                        <strong>Oliva</strong>
+                                        <span>@Olivaadward</span>
+                                    </div>
+                                </div>
+                                <div class="reviews">
+                                    <i class="fas fa-star">
+                                        <img src="/assets/img/customer-rating-and-pics/4star.png "
+                                            style="width: 120px;">
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="client-comment">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem، quaerat
+                                    quis؟ Provident temporibus architecto asperiores nobis maiores nisi a. Quae
+                                    doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <!-- القسم السفلي من الصفحة -->
+
+            <section class="footer">
+                <div class="footer-row">
+                    <div class="footer-col">
+                        <h4>Info</h4>
+                        <!-- عنوان قسم المعلومات -->
+                        <ul class="links">
+                            <li><a href="#">About Us</a></li>
+                            <!-- رابط لصفحة من نحن -->
+                            <li><a href="#">Compressions</a></li>
+                            <!-- رابط لصفحة المقارنات -->
+                            <li><a href="#">Customers</a></li>
+                            <!-- رابط لصفحة العملاء -->
+                            <li><a href="#">Service</a></li>
+                            <!-- رابط لصفحة الخدمات -->
+                            <li><a href="#">Collection</a></li>
+                            <!-- رابط لصفحة المجموعة -->
+                        </ul>
+                    </div>
+
+
+                    <div class="footer-col">
+                        <h4>Explore</h4>
+                        <!-- عنوان قسم الاستكشاف -->
+                        <ul class="links">
+                            <li><a href="#">Free Designs</a></li>
+                            <!-- رابط لصفحة التصاميم المجانية -->
+                            <li><a href="#">Latest Designs</a></li>
+                            <!-- رابط لصفحة التصاميم الحديثة -->
+                            <li><a href="#">Themes</a></li>
+                            <!-- رابط لصفحة الثيمات -->
+                            <li><a href="#">Popular Designs</a></li>
+                            <!-- رابط لصفحة التصاميم الشهيرة -->
+                            <li><a href="#">Art Skills</a></li>
+                            <!-- رابط لصفحة مهارات الفن -->
+                            <li><a href="#">New Uploads</a></li>
+                            <!-- رابط لصفحة التحميلات الجديدة -->
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Legal</h4>
+                        <!-- عنوان قسم القانون -->
+                        <ul class="links">
+                            <li><a href="#">Customer Agreement</a></li>
+                            <!-- رابط لصفحة اتفاقية العملاء -->
+                            <li><a href="#">Privacy Policy</a></li>
+                            <!-- رابط لصفحة سياسة الخصوصية -->
+                            <li><a href="#">GDPR</a></li>
+                            <!-- رابط لصفحة اللائحة العامة لحماية البيانات -->
+                            <li><a href="#">Security</a></li>
+                            <!-- رابط لصفحة الأمان -->
+                            <li><a href="#">Testimonials</a></li>
+                            <!-- رابط لصفحة الشهادات -->
+                            <li><a href="#">Media Kit</a></li>
+                            <!-- رابط لصفحة مجموعة الوسائط -->
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Newsletter</h4>
+                        <!-- عنوان قسم النشرة الإخبارية -->
+                        <p>
+                            Subscribe to our newsletter for a weekly dose
+                            of news, updates, helpful tips, and
+                            exclusive offers.
+                            <!-- نص دعوة للاشتراك في النشرة الإخبارية -->
+                        </p>
+                        <form action="#">
+                            <input type="text" placeholder="Your email" required>
+                            <!-- حقل إدخال البريد الإلكتروني -->
+                            <button type="submit" style="position: relative;">SUBSCRIBE</button>
+                            <!-- زر الاشتراك -->
+                        </form>
+                        <div class="icons">
+                            <!-- أيقونات الوسائط الاجتماعية -->
+                            <ul>
+                                <li class="facebook">
+                                    <a href="#" id="facebook">
+                                        <i class="fab fa-facebook">
+                                            <img src="/assets/img/social-icons/face.png"
+                                                style="height: 22px; width: 15px; position: relative; top: -1px; left: 1px;">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" id="insta">
+                                        <i class="fab fa-twitter">
+                                            <img src="/assets/img/social-icons/insta.png">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" id="linkedin">
+                                        <i class="fab fa-google-plus-g">
+
+                                            <img src="/assets/img/social-icons/linkedin.png"
+                                                style=" position: relative; top: -1px;">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" id="tele">
+                                        <i class="fab fa-instagram">
+                                            <img src="/assets/img/social-icons/tele.png"
+                                                style=" position: relative; top: 3px; left: -2px;">
+                                        </i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="paragraph">
+                <p>&copy; 2024 Elegant Event. All rights reserved</p>
+                <!-- نص حقوق الملكية الفكرية للموقع -->
+            </div>
+        </footer>
+    </div>
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- ربط ملف JavaScript خارجي لتأثير الجزيئات -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <!-- ربط ملف JavaScript خارجي لعرض الإحصائيات -->
+    <script src="assets/js/main.js"></script>
+    <!-- ربط ملف JavaScript الرئيسي للموقع -->
+
+</body>
+
+</html>
